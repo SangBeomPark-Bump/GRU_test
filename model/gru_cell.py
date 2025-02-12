@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+
 class MyGRUCell(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(MyGRUCell, self).__init__()

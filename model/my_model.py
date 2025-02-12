@@ -1,6 +1,7 @@
 import torch
 import torch.nn as nn
-from gru_cell import MyGRUCell
+from model.gru_cell import MyGRUCell
+
 class MyModel(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super(MyModel, self).__init__()
